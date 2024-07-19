@@ -23,7 +23,13 @@ used in con controller
 
  */
 
-
+/*
+CRUD REPO
+C= Create -->@PostMapping
+R=Read -->@GetMapping
+U=Update --> @PutMapping
+D=Delete --> @DeleteMapping
+*/
 
 @RestController
 @RequestMapping("/Students")
